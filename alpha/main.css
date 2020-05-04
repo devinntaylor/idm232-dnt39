@@ -1,0 +1,52 @@
+body {
+    margin: auto;
+    padding: 3rem 8rem;
+}
+
+.header img {
+    max-height: 12rem;
+}
+
+.desktop img {
+    max-height: 28rem;
+    max-width: 20rem;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.mobile {
+    text-align: center;
+}
+
+.mobile img {
+    padding: 10px 10px;
+}
+
+img {
+    margin: auto;
+    padding: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h2,
+h3 {
+    font-size: 30px;
+}
+
+h1,
+h2,
+h3,
+footer {
+    font-family: 'miso', sans-serif;
+    color: #bea682;
+    text-align: center;
+}
