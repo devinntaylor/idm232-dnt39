@@ -1,52 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: auto;
-    padding: 3rem 8rem;
-}
-
-.header img {
-    max-height: 12rem;
-}
-
-.desktop img {
-    max-height: 28rem;
-    max-width: 20rem;
-    display: inline-block;
-    padding: 10px 0;
-}
-
-.mobile {
     text-align: center;
+    padding: 1rem 5rem;
 }
 
-.mobile img {
-    padding: 10px 10px;
-}
-
-img {
-    margin: auto;
-    padding: 0;
+.logo img {
     display: block;
-    justify-content: center;
-    align-items: center;
-    max-height: 100%;
-    max-width: 100%;
+    margin: auto;
+    max-width: 12rem;
+}
+
+.filter {
+    margin: auto;
+    text-align: center;
+    padding: 3rem;
+}
+
+.filter button {
+    font-family: 'DIN Medium';
+    font-size: 25px;
+    background-color: white;
+    border: 2px solid #be2b2b;
+    border-radius: 5px;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /*    margin: 5rem;*/
+    transition-duration: 0.4s;
+}
+
+.filter button:hover {
+    background-color: #be2b2b;
+    color: white;
+    cursor: pointer;
+}
+
+.card {
+    text-align: center;
+    max-width: 18rem;
+    max-height: 30rem;
+    background-color: white;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+}
+
+.card-subtitle,
+.card-mins,
+.card-cals {
+    text-align: center;
+    font-family: 'DIN Medium';
+    font-size: 16px;
+}
+
+h2 {
+    padding: 10px 2px;
+    font-family: 'BrandonPrinted-Two';
+    font-size: 18px;
 }
 
 h1 {
-    font-size: 40px;
-    text-align: center;
+    font-family: 'BrandonPrinted-Two';
 }
 
-h2,
 h3 {
-    font-size: 30px;
+    font-family: 'DIN Medium';
 }
 
-h1,
-h2,
-h3,
-footer {
-    font-family: 'miso', sans-serif;
-    color: #bea682;
-    text-align: center;
+p,
+ul {
+    font-family: 'Miso';
+    font-size: 20px;
+    line-height: 1.5rem;
 }
+
+.card-content img {
+    max-width: 15rem;
+    border-radius: 50%;
+}
+
+.copyright {
+    padding-top: 2rem;
+}
+
+.up p {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.search {
+    float: right;
+    margin: .4rem 0;
+}
+
+.search button:hover {
+    cursor: pointer;
+}
+
+/* Recipe Page */
+
+/*
+.recipeHero img {
+    max-width: 30rem;
+    margin: auto;
+    display: block;
+}
+*/
+
+.titleDesc h1,
+h3,
+p,
+ul {
+    text-align: left;
+    display: block;
+    max-width: 25rem;
+    margin-left: auto;
+}
+
+.titleDesc img {
+    float: left;
+    padding-right: 1rem;
+    max-width: 30rem;
+    display: inline;
+}
+
+.wrapper {
+    width: 900px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+
+.ingredients img {
+    float: right;
+    padding-left: 1rem;
+    max-width: 25rem;
+    display: inline;
+}
+
+.ingredients ul {
+    float: left;
+    display: block;
+    margin-right: auto;
+}
+
+.instructions p {
+    margin: auto;
+    padding: 1.5rem;
+}
+
+.search img {
+    float: top right;
+    max-width: 20px;
+}
+
+.help img {
+    padding-top: 2rem;
+    max-width: 30px;
+}
+
+.home img {
+    max-width: 5rem;
+    float: left;
+}
+
+@media (min-width: 1281px) {
+    .cards {
+        padding: 0 15rem;
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
