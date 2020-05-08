@@ -213,6 +213,7 @@ ul {
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
+    padding: 20rem 0;
 }
 
 .overlay:target {
@@ -221,13 +222,14 @@ ul {
 }
 
 .popup {
-    margin: 16rem 5rem;
     padding: 30px;
     background: #fff;
     border-radius: 20px;
     max-width: 30rem;
     position: relative;
     transition: all 0.5s ease-in-out;
+    display: block;
+    margin: auto;
 }
 
 .popup h2 {
@@ -369,6 +371,15 @@ ul {
         margin: auto;
     }
 }
+
+@media screen and (max-width: 700px) {
+
+    .popup {
+        width: 70%;
+    }
+}
+
+
 
 /*Instructions*/
 
