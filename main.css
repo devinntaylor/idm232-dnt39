@@ -91,7 +91,6 @@ h3 {
     margin: auto;
     font-family: 'DIN Medium';
     font-size: 12px;
-
 }
 
 .search {
@@ -109,14 +108,11 @@ h3 {
     cursor: pointer;
 }
 
-
-
 .filter button:hover {
     background-color: #be2b2b;
     color: white;
     cursor: pointer;
 }
-
 
 .logo img {
     display: block;
@@ -129,13 +125,13 @@ h3 {
     padding-top: 1rem;
 }
 
+
 /*Recipe Page*/
 
 header {
     padding: 10px;
     background: #FDF9E8;
 }
-
 
 .wrapper {
     padding: 0 1.5rem;
@@ -188,6 +184,7 @@ ul {
     font-size: 20px;
     text-align: center;
 }
+
 
 /*Help Popup */
 
@@ -268,6 +265,7 @@ ul {
     padding: 0 3rem;
 }
 
+
 /*Media Queries*/
 
 @media (max-width: 768px) {
@@ -275,7 +273,6 @@ ul {
         margin: auto;
     }
 }
-
 
 @media (min-width: 1024px) {
     .wrapper {
@@ -355,7 +352,6 @@ ul {
     .instructions {
         padding-top: 18rem;
     }
-
 }
 
 @media (min-width: 1170px) {
@@ -373,12 +369,10 @@ ul {
 }
 
 @media screen and (max-width: 700px) {
-
     .popup {
         width: 70%;
     }
 }
-
 
 
 /*Instructions*/
