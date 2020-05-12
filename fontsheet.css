@@ -1,11 +1,19 @@
-@font-face {
-    font-family: 'BrandonPrinted-Two';
-}
+    @font-face {
+        font-family: 'brandon_printedtwo';
+        src: url('brandonprinted-two-webfont.woff2') format('woff2'), url('brandonprinted-two-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
 
-@font-face {
-    font-family: 'DIN Medium';
-}
+    @font-face {
+        font-family: 'din_mediumregular';
+        src: url('din_medium_regular-webfont.woff2') format('woff2'), url('din_medium_regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
 
-@font-face {
-    font-family: 'Miso';
-}
+    @font-face {
+        font-family: 'misolight';
+        src: url('miso-lig-webfont.woff2') format('woff2'), url('miso-lig-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
