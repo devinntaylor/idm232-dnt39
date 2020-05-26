@@ -1,9 +1,21 @@
 <?php
 // Create database connection
+
+/*local*/
+
+//$dbhost = "localhost";
+//$dbuser = "root";
+//$dbpass = "root";
+//$dbname = "cookbook";
+
+/*online*/
+
 $dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "root";
-$dbname = "cookbook";
+$dbuser = "devintay_cook";
+$dbpass = "DJdbdjc+ccd";
+$dbname = "devintay_cookbook";
+
+
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
 // Check the connection is good with no errors
