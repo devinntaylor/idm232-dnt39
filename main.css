@@ -40,19 +40,35 @@ body {
     padding: 2rem;
 }
 
-.filter button {
+#browse li {
     font-family: 'din_mediumregular';
-    font-size: 25px;
+    font-size: 18px;
     background-color: white;
     border: 2px solid #be2b2b;
     border-radius: 5px;
+    margin: 5px;
     color: black;
-    padding: 15px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 0 2rem;
-    transition-duration: 0.4s;
+    padding: 5px;
+}
+
+#browse a {
+    text-decoration: none;
+    color: black;
+}
+
+#browse li:hover {
+    background-color: #be2b2b;
+    color: white;
+    cursor: pointer;
+}
+
+#browse a:hover {
+    background-color: #be2b2b;
+    color: white;
+    cursor: pointer;
 }
 
 .cards {}
@@ -131,34 +147,27 @@ h3 {
     font-size: 12px;
 }
 
-.search input {
-    border: none;
-    margin-left: 5px;
-}
-
-.search {
+.search-container {
     float: right;
+    margin-top: 1rem;
+    margin-right: 1rem;
     line-height: 1.5rem;
-    border: 1px solid lightgray;
+    border: none;
     color: grey;
     border-radius: 10px;
     background-color: white;
+    padding-left: 5px;
+    padding-right: .5rem;
 }
 
-.search button {
+.form__field input:hover {
+    cursor: pointer;
+}
+
+.form__field input {
     border: none;
     color: grey;
     border-radius: 10px;
-}
-
-.search button:hover {
-    cursor: pointer;
-}
-
-.filter button:hover {
-    background-color: #be2b2b;
-    color: white;
-    cursor: pointer;
 }
 
 .logo img {
@@ -170,6 +179,7 @@ h3 {
 .logo h1 {
     font-size: 40px;
     padding-top: 1rem;
+    text-align: center;
 }
 
 
@@ -221,6 +231,7 @@ ul {
 
 ul {
     list-style-type: square;
+    max-width: 500px;
 }
 
 .ingredients img {
@@ -231,6 +242,29 @@ ul {
     font-family: 'brandon_printedtwo';
     font-size: 20px;
     text-align: center;
+}
+
+
+/*Instructions*/
+
+.instructions p {
+    /*    max-width: 45rem;*/
+    display: block;
+    margin: auto;
+    font-family: 'misoregular';
+    font-size: 20px;
+    line-height: 1.3rem;
+    padding: 1.5rem 0;
+}
+
+.instructions img {
+    display: block;
+    margin: auto;
+    /*    max-width: 27rem;*/
+}
+
+.card p {
+    height: 1.2rem;
 }
 
 
@@ -329,10 +363,10 @@ ul {
         margin: auto;
     }
 
-    .instructions h2 {
-        display: block;
-        margin: auto;
-        font-size: 22px;
+    .box {
+        padding: 10px;
+        background: #FDF9E8;
+        width: 100%;
     }
 
     img {
@@ -381,6 +415,7 @@ ul {
         padding-left: 1rem;
         max-width: 25rem;
         display: inline;
+        padding-bottom: 5rem;
     }
 
     .ingredients ul {
@@ -389,16 +424,8 @@ ul {
         margin-right: auto;
     }
 
-    .instructions h2 {
-        padding: 1.3rem 0;
-    }
-
     .ingredients {
-        padding-top: 18rem;
-    }
-
-    .instructions {
-        padding-top: 18rem;
+        padding-top: 15rem;
     }
 }
 
@@ -420,32 +447,4 @@ ul {
     .popup {
         width: 70%;
     }
-}
-
-
-/*Instructions*/
-
-.instructions h2 {
-    font-family: 'brandon_printedtwo';
-    font-size: 20px;
-    text-align: center;
-}
-
-.instructions p {
-    max-width: 45rem;
-    display: block;
-    margin: auto;
-    font-family: 'misoregular';
-    font-size: 20px;
-    line-height: 1.3rem;
-    padding: 1.5rem 0;
-}
-
-.instructions img {
-    display: block;
-    margin: auto;
-}
-
-.card p {
-    height: 1.2rem;
 }
