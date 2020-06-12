@@ -47,22 +47,36 @@
                                                             text-align: center;
                                                         }
 
+                                                        header {
+                                                            padding: 20px;
+                                                        }
+
                                                         header,
                                                         footer {
-                                                            padding: 1rem;
-                                                            ;
+                                                            padding-bottom: 20px;
                                                             background: #FDF9E8;
                                                             width: 100%;
+                                                        }
+
+                                                        footer p {
+                                                            padding-top: 25px;
                                                         }
 
                                                         header h3 {
                                                             text-align: center;
                                                             font-family: 'din_mediumregular';
+                                                            color: black;
+                                                            font-size: 14px
                                                         }
 
-                                                        h2,
+                                                        h2 {
+                                                            font-family: 'din_mediumregular';
+                                                            color: #f2903c;
+                                                        }
+
                                                         h3 {
                                                             font-family: 'din_mediumregular';
+                                                            color: #be2b2b;
                                                         }
 
                                                         p {
@@ -72,10 +86,10 @@
 
                                                         a {
                                                             text-decoration: none;
-                                                            color: black;
+                                                            color: #be2b2b;
                                                         }
 
-                                                        footer {
+                                                        .up p {
                                                             text-align: center;
                                                             margin-top: 5rem;
                                                             font-size: 14px;
